@@ -1,0 +1,1007 @@
+!!ERROR!!  00107 2017-09-30#15:54:56.732 [Log Missing] log buffer is full!!!CheckSum Error: 0x7e^0x7e^0xfe != 0x00 
+ 00001 2017-09-30#16:01:35.592 002 00000 
+ 00002 2017-09-30#16:01:35.592 040 00000 RTL8762AX_VB SDK Version: 1.1.0.17235
+ 00003 2017-09-30#16:01:35.592 041 00000 Build Time:2017/02/17 13:19:07
+ 00004 2017-09-30#16:01:35.592 042 00000 In SoC Mode
+ 00005 2017-09-30#16:01:35.592 046 00000 task number: 3, task name: APPTask
+
+ 00006 2017-09-30#16:01:35.592 047 00000 task number: 4, task name: l1send
+
+ 00007 2017-09-30#16:01:35.592 048 00000 task number: 5, task name: IDLE
+
+ 00008 2017-09-30#16:01:35.592 049 00000 task number: 6, task name: Tmr Svc
+
+ 00009 2017-09-30#16:01:35.857 023 00000 File[100], Line[1043] [MODULE_LOWERSTACK] ######## CPU Reboot ########
+ 00010 2017-09-30#16:01:35.873 028 00000 File[100], Line[1112] [MODULE_LOWERSTACK] firmware-4.0 version = 648e 004d cpu clock = 40000000 my_bt_addr = 0xec1d7f123405
+ 00011 2017-09-30#16:01:35.873 033 00000 File[032], Line[0495] [MODULE_LOWERSTACK] [Bee-VHCI] Open/Close Lower Stack (1)
+ 00012 2017-09-30#16:01:35.873 043 00000 File[026], Line[0000] [MODULE_APP] AesFlg= 1
+ 00013 2017-09-30#16:01:35.873 044 00000 File[026], Line[0000] [MODULE_APP] g_DfuAesCtx:20003c30
+ 00014 2017-09-30#16:01:35.873 045 00000 File[026], Line[0000] [MODULE_APP] g_pOtaTempBufferHead:0x2000a508
+ 00015 2017-09-30#16:01:35.873 050 00000 File[026], Line[0000] [MODULE_APP] reboot_reason 0x0 
+ 00016 2017-09-30#16:01:35.873 051 00000 File[026], Line[0000] [MODULE_APP] motor init... 
+ 00017 2017-09-30#16:01:35.873 052 00000 File[026], Line[0000] [MODULE_APP] airsync module init... 
+ 00018 2017-09-30#16:01:35.873 054 00000 File[026], Line[0000] [MODULE_APP] button init... 
+ 00019 2017-09-30#16:01:35.873 059 00000 File[026], Line[0000] [MODULE_APP] i2c bus drv install 
+ 00020 2017-09-30#16:01:35.998 060 00000 File[026], Line[0000] [MODULE_APP] OLED init... 
+ 00021 2017-09-30#16:01:35.998 062 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD:Read Local Version Information Command, opcode: 0x1001, len: 0x00, No parameters
+ 00021 2017-09-30#16:01:35.998 062 00020 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:1001 len:0, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00022 2017-09-30#16:01:35.998 063 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x0c, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x01 10, Return_Parameter Size: Depends on Command
+ 00022 2017-09-30#16:01:35.998 063 00020 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:12, 02 01 10 00 08 4d 00 08 5d 00 8e 64 00 00 00 00 00 00  
+ 00023 2017-09-30#16:01:36.014 066 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: Read BD_ADDR Command, opcode: 0x1009, len: 0x00, No parameters
+ 00023 2017-09-30#16:01:36.014 066 00020 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:1009 len:0, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00024 2017-09-30#16:01:36.014 067 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x0a, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x09 10, Return_Parameter Size: Depends on Command
+ 00024 2017-09-30#16:01:36.014 067 00020 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:10, 02 09 10 00 05 34 12 7f 1d ec 8e 64 00 00 00 00 00 00  
+ 00025 2017-09-30#16:01:36.029 070 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: Read Local Su pported Features Command, opcode: 0x1003, len: 0x00, No parameters
+ 00025 2017-09-30#16:01:36.029 070 00020 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:1003 len:0, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00026 2017-09-30#16:01:36.029 071 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x0c, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x03 10, Return_Parameter Size: Depends on Command
+ 00026 2017-09-30#16:01:36.029 071 00020 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:12, 02 03 10 00 00 00 00 00 60 00 00 00 00 00 00 00 00 00  
+ 00027 2017-09-30#16:01:36.029 074 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: Set Even t Mask Command, opcode: 0x0C01, len: 0x00, Event_Mask: 0xff ff ff ff ff ff ff 3d 
+ 00027 2017-09-30#16:01:36.029 074 00020 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:0c01 len:8, ff ff ff ff ff ff ff 3d 00 00 00 00 00 00 00 00 00 00  
+ 00028 2017-09-30#16:01:36.029 075 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x04, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x01 0c, Return_Parameter Size: Depends on Command
+ 00028 2017-09-30#16:01:36.029 075 00020 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:4, 02 01 0c 00 00 00 00 00 60 00 00 00 00 00 00 00 00 00  
+ 00029 2017-09-30#16:01:36.045 078 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD:, opcode: 0x2001, len: 0x00, LE_Event_Mask: 0x5f 00 00 00 00 00 00 00
+ 00029 2017-09-30#16:01:36.045 078 00020 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2001 len:8, 5f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00030 2017-09-30#16:01:36.045 079 00020 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=01 len:8, 5f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00031 2017-09-30#16:01:36.045 080 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x04, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x01 20, Return_Parameter Size: Depends on Command
+ 00031 2017-09-30#16:01:36.045 080 00020 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:4, 02 01 20 00 00 00 00 00 60 00 00 00 00 00 00 00 00 00  
+ 00032 2017-09-30#16:01:36.045 083 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Read Buffer Size Command, opcode: 0x2002, len: 0x00, No parameters
+ 00032 2017-09-30#16:01:36.045 083 00020 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2002 len:0, ff ff ff ff ff ff ff 3d 00 00 00 00 00 00 00 00 00 00  
+ 00033 2017-09-30#16:01:36.045 084 00020 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=02 len:0, ff ff ff ff ff ff ff 3d 00 00 00 00 00 00 00 00 00 00
+ 00034 2017-09-30#16:01:36.045 085 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x07, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x02 20, Return_Parameter Size: Depends on Command
+ 00034 2017-09-30#16:01:36.045 085 00020 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:7, 02 02 20 00 1b 00 08 00 60 00 00 00 00 00 00 00 00 00  
+ 00035 2017-09-30#16:01:36.045 088 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Read Local S upported Features Command, opcode: 0x2003, len: 0x00, No parameters
+ 00035 2017-09-30#16:01:36.045 088 00020 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2003 len:0, 5f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00036 2017-09-30#16:01:36.045 089 00020 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=03 len:0, 5f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00037 2017-09-30#16:01:36.045 090 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x0c, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x03 20, Return_Parameter Size: Depends on Command
+ 00037 2017-09-30#16:01:36.045 090 00020 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:12, 02 03 20 00 3d 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00038 2017-09-30#16:01:36.060 093 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Write Suggested Default Data Length Command, opcode: 0x2024, len: 0x00,SuggestedMaxTxOctets: 0xfb 00, SuggestedMaxTxTime: 0x4808
+ 00038 2017-09-30#16:01:36.060 093 00030 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2024 len:4, fb 00 48 08 ff ff ff 3d 00 00 00 00 00 00 00 00 00 00  
+ 00039 2017-09-30#16:01:36.060 094 00030 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=24 len:4, fb 00 48 08 ff ff ff 3d 00 00 00 00 00 00 00 00 00 00
+ 00040 2017-09-30#16:01:36.060 095 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x04, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x24 20, Return_Parameter Size: Depends on Command
+ 00040 2017-09-30#16:01:36.060 095 00030 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:4, 02 24 20 00 3d 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00041 2017-09-30#16:01:36.060 098 00000 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Read Suggested Default Data Length Command, opcode: 0x2023, len: 0x00, No parameters
+ 00041 2017-09-30#16:01:36.060 098 00030 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2023 len:0, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  
+ 00042 2017-09-30#16:01:36.060 099 00030 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=23 len:0, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00043 2017-09-30#16:01:36.060 100 00000 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x08, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x23 20, Return_Parameter Size: Depends on Command
+ 00043 2017-09-30#16:01:36.060 100 00030 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:8, 02 23 20 00 fb 00 48 08 00 00 00 00 00 00 00 00 00 00  
+ 00044 2017-09-30#16:01:36.060 102 00160 File[026], Line[0000] [MODULE_APP] type = 13, appendFlag = 0, pValue= 0x0
+ 00045 2017-09-30#16:01:36.060 103 00220 File[026], Line[0000] [MODULE_APP] OLED RESET
+ 00046 2017-09-30#16:01:36.060 104 00220 File[026], Line[0000] [MODULE_APP] accelermeter init... 
+ 00047 2017-09-30#16:01:36.060 105 00220 File[026], Line[0000] [MODULE_APP] Right Gsensor Chip ID 
+ 00048 2017-09-30#16:01:36.060 106 00220 File[026], Line[0000] [MODULE_APP] BMA253 CHIP INIT
+
+ 00049 2017-09-30#16:01:36.060 107 00230 File[026], Line[0000] [MODULE_APP] heart rate sensor init... 
+ 00050 2017-09-30#16:01:36.060 108 00240 File[026], Line[0000] [MODULE_APP] REG 0X01:0xb1
+ 
+ 00051 2017-09-30#16:01:36.060 109 00240 File[026], Line[0000] [MODULE_APP] REG 0X0A:0x7f
+ 
+ 00052 2017-09-30#16:01:36.060 110 00240 File[026], Line[0000] [MODULE_APP] REG 0X0D:0x0
+ 
+ 00053 2017-09-30#16:01:36.060 111 00240 File[026], Line[0000] [MODULE_APP] heart rate sensor init success... 
+ 00054 2017-09-30#16:01:36.060 116 00240 File[026], Line[0000] [MODULE_APP] external Flash init... 
+ 00055 2017-09-30#16:01:36.060 117 00240 File[026], Line[0000] [MODULE_APP] SPI FLASH CHIP ID 0xe0 !
+ 00056 2017-09-30#16:01:36.060 118 00240 File[026], Line[0000] [MODULE_APP] SPI FLASH CHIP ID 0xe0 !
+ 00057 2017-09-30#16:01:36.060 120 00240 File[026], Line[0000] [MODULE_APP] charger init... 
+ 00058 2017-09-30#16:01:36.060 123 00240 File[026], Line[0000] [MODULE_APP] Private Protocol Init... 
+ 00059 2017-09-30#16:01:36.060 127 00240 File[026], Line[0000] [MODULE_APP] flash storage init... 
+ 00060 2017-09-30#16:01:36.060 128 00240 File[026], Line[0000] [MODULE_APP] RTC timer init... 
+ 00061 2017-09-30#16:01:36.060 142 00240 File[026], Line[0000] [MODULE_APP] adcConvertRes:25006,volatage_in_mv1:3715,battery:30
+
+ 00062 2017-09-30#16:01:36.076 143 00240 File[026], Line[0000] [MODULE_APP] health algorithm init... 
+ 00063 2017-09-30#16:01:36.076 144 00240 File[026], Line[0000] [MODULE_APP] f:0 a:0 h0 w0
+
+ 00064 2017-09-30#16:01:36.076 145 00240 File[026], Line[0000] [MODULE_APP] Pedo Algorithm Version 1946; Sleep Algorithm Version 1946
+ 00065 2017-09-30#16:01:36.076 146 00240 File[026], Line[0000] [MODULE_APP] input Zthd:0,XYthd:0,Final Zthd:1679,XYthd:1024
+ 00066 2017-09-30#16:01:36.076 148 00240 File[026], Line[0000] [MODULE_APP] restore device name... 
+ 00067 2017-09-30#16:01:36.076 150 00240 File[026], Line[0000] [MODULE_APP] data uart init... 
+ 00068 2017-09-30#16:01:36.076 151 00240 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0xe
+!!ERROR!!  00069 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00070 2017-09-30#16:01:36.076 153 00240 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x11
+ 00071 2017-09-30#16:01:36.076 154 00250 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x14
+ 00072 2017-09-30#16:01:36.076 155 00250 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x14
+ 00073 2017-09-30#16:01:36.076 156 00250 File[026], Line[0000] [MODULE_APP] gattdServiceRegister index 0
+ 00074 2017-09-30#16:01:36.076 157 00250 File[026], Line[0000] [MODULE_APP] --> GATTServiceRegisterReq: pService=0x51d8a8, nbrOfAttrib=4, serviceId 0
+!!ERROR!!  00075 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00076 2017-09-30#16:01:36.076 163 00250 File[026], Line[0000] [MODULE_APP] --> GATTServiceRegisterReq: pService=0x51d928, nbrOfAttrib=19, serviceId 1
+!!ERROR!!  00077 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00078 2017-09-30#16:01:36.076 169 00250 File[026], Line[0000] [MODULE_APP] --> GATTServiceRegisterReq: pService=0x51dbc0, nbrOfAttrib=15, serviceId 3
+!!ERROR!!  00079 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00080 2017-09-30#16:01:36.076 173 00250 File[026], Line[0000] [MODULE_APP] profileHandle_GATTServiceRegisterRsp cause = 0x0
+!!ERROR!!  00081 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00082 2017-09-30#16:01:36.076 178 00250 File[026], Line[0000] [MODULE_APP] --> GATTServiceRegisterReq: pService=0x51de74, nbrOfAttrib=8, serviceId 6
+!!ERROR!!  00083 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+!!ERROR!!  00084 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00085 2017-09-30#16:01:36.076 188 00250 File[026], Line[0000] [MODULE_APP] peripheral_Init_StartAdvertising
+!!ERROR!!  00086 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+!!ERROR!!  00087 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00088 2017-09-30#16:01:36.076 201 00260 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x51
+!!ERROR!!  00089 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00090 2017-09-30#16:01:36.076 207 00260 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x53
+!!ERROR!!  00091 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+!!ERROR!!  00092 2017-09-30#16:01:36.076 [Log Missing] log buffer is full!!!
+ 00093 2017-09-30#16:01:36.092 215 00260 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x53
+!!ERROR!!  00094 2017-09-30#16:01:36.092 [Log Missing] log buffer is full!!!
+ 00095 2017-09-30#16:01:40.843 221 05220 File[026], Line[0000] [MODULE_APP] OLED 5s time out
+ 00096 2017-09-30#16:01:43.422 222 07800 File[000], Line[6468] [MODULE_LOWERSTACK] QUIT LE ADV STATE: reason 2 status_reg 0004
+ 00097 2017-09-30#16:01:43.437 225 07800 File[206], Line[1780] [MODULE_LOWERSTACK] [LL] local: max_tx_size: 251, max_tx_time: 2120, max_rx_size: 251, max_rx_time: 2120
+ 00098 2017-09-30#16:01:43.437 226 07800 File[206], Line[1785] [MODULE_LOWERSTACK] [LL] remote: max_tx_size: 27, max_tx_time: 328, max_rx_size: 27, max_rx_time: 328
+ 00099 2017-09-30#16:01:43.437 227 07800 File[206], Line[1790] [MODULE_LOWERSTACK] [LL] max_tx_size: 27, max_tx_time: 328, max_rx_size: 27, max_rx_time: 328
+ 00100 2017-09-30#16:01:43.437 228 07800 File[202], Line[2307] [MODULE_LOWERSTACK] QUIT LE INIT/CONN STATE: reason 0 status_reg 0001
+ 00101 2017-09-30#16:01:43.437 230 07800 File[201], Line[2797] [MODULE_LOWERSTACK] LE ADV Data Content: pdu_type 5 offset 0  pdu_len 40 (len=40)
+ 00102 2017-09-30#16:01:43.437 231 07800 File[203], Line[3090] [MODULE_LOWERSTACK] LE Connection Complete: status 00h idx 0 handle 15 role 0 AccessAddress:0xaf9aa5e5 interval 24 latency 0.
+ 00103 2017-09-30#16:01:43.437 232 00030 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: LE Connection Complete Event, code: 0x3E, len: 0x13, Subevent_Code: 0x01, Status: 0x00, Connection_Handle: 0x0f 00, Role: 0x01, Peer_Address_Type: 0x01, Peer_Address: 0xf8 f4 df 6a 59 41, Conn_Interval: 0x18 00, Conn_Latency: 0x00 00, Supervision_Timeout: 0x48 00, Master_Clock_Accuracy: 0x00 
+ 00103 2017-09-30#16:01:43.437 232 07800 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:3e len:19, 01 00 0f 00 01 01 f8 f4 df 6a 59 41 18 00 00 00 48 00  
+ 00104 2017-09-30#16:01:43.437 234 07800 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0xc
+ 00105 2017-09-30#16:01:43.437 235 07800 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0xb
+ 00106 2017-09-30#16:01:43.437 236 07800 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x7
+ 00107 2017-09-30#16:01:43.437 239 07800 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x3e
+ 00108 2017-09-30#16:01:43.437 240 07800 File[026], Line[0000] [MODULE_APP] profileSetConnInfo
+
+ 00109 2017-09-30#16:01:43.437 241 07800 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x9
+ 00110 2017-09-30#16:01:43.437 242 07800 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x5d
+ 00111 2017-09-30#16:01:43.437 243 07800 File[026], Line[0000] [MODULE_APP] peripheral_HandleBtGapMessage subType = 1
+ 00112 2017-09-30#16:01:43.468 244 07800 File[026], Line[0000] [MODULE_APP] BT_MSG_TYPE_CONN_STATE_CHANGE:(2->3)
+ 00113 2017-09-30#16:01:43.468 245 07810 File[204], Line[2986] [MODULE_LOWERSTACK] <= [LL] LL Ctrl PDU received, opc:12 m:0 ent:0 len:6 pause_enc:0 start_enc:0 counter:0 data:0c 08 0f 00 07 66 00 00
+ 00114 2017-09-30#16:01:43.468 247 07810 File[204], Line[1274] [MODULE_LOWERSTACK] [LL]Gen LL_VERSION_IND: 08 5d 00 8e 64
+ 00115 2017-09-30#16:01:43.468 248 07810 File[206], Line[1553] [MODULE_LOWERSTACK] [LL]Get LE SLOT OFST: conn_entry:0, role:0, full_real_anchor_point:0x0, real_anchor_point:0x22, anchor_point_slot:0x3140, phandle->slot_offset:32, conn_interval_slot:48
+ 00116 2017-09-30#16:01:43.468 249 07840 File[206], Line[1553] [MODULE_LOWERSTACK] [LL]Get LE SLOT OFST: conn_entry:0, role:0, full_real_anchor_point:0x0, real_anchor_point:0x3a, anchor_point_slot:0x3171, phandle->slot_offset:33, conn_interval_slot:48
+ 00117 2017-09-30#16:01:43.500 251 07870 File[204], Line[2986] [MODULE_LOWERSTACK] <= [LL] LL Ctrl PDU received, opc:8 m:0 ent:0 len:9 pause_enc:0 start_enc:0 counter:3 data:08 1d 00 00 00 00 00 00
+ 00118 2017-09-30#16:01:43.515 253 07870 File[204], Line[1168] [MODULE_LOWERSTACK] [LL]Gen LL_FEATURE_RSP (0): 39 00 00 00 00 00 00 00
+ 00119 2017-09-30#16:01:43.515 254 07870 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 16 entry 0 ce_cnt 3 clk 006346 all 14
+ 00120 2017-09-30#16:01:43.547 001 07930 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 14 entry 0 ce_cnt 5 clk 006405 all 30
+ 00121 2017-09-30#16:01:43.547 004 07940 File[026], Line[0000] [MODULE_APP] profileUpdateMtu mtu_size = 185
+
+ 00122 2017-09-30#16:01:43.578 005 07940 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x40
+ 00123 2017-09-30#16:01:43.609 006 07990 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 14 entry 0 ce_cnt 7 clk 0064c5 all 37
+ 00124 2017-09-30#16:01:43.609 008 08000 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTAttributeReadInd:idx=2, offset=0
+ 00125 2017-09-30#16:01:43.609 009 08000 File[026], Line[0000] [MODULE_APP] BasAttrReadCb  iAttribIndex = 2 iOffset 0
+ 00126 2017-09-30#16:01:43.609 010 08000 File[026], Line[0000] [MODULE_APP] adcConvertRes:25013,volatage_in_mv1:3717,battery:30
+
+ 00127 2017-09-30#16:01:43.640 012 08000 File[026], Line[0000] [MODULE_APP] --> GATTAttributeReadConf: wCause=0, length=1
+ 00128 2017-09-30#16:01:43.672 013 08050 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 16 entry 0 ce_cnt 9 clk 006585 all 45
+ 00129 2017-09-30#16:01:43.672 016 08060 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTCCCDInfo:  count=1 ServiceID=0
+ 00130 2017-09-30#16:01:43.672 017 08060 File[026], Line[0000] [MODULE_APP] attribIndex=3, cccBits=0x0001
+ 00131 2017-09-30#16:01:43.672 018 08060 File[026], Line[0000] [MODULE_APP] profileUpdateCCCDInfo ServiceId 0
+ 00132 2017-09-30#16:01:43.672 019 08060 File[026], Line[0000] [MODULE_APP] BasCccdUpdateCb  Index = 3 wCCCDBits 1
+ 00133 2017-09-30#16:01:43.672 020 08060 File[026], Line[0000] [MODULE_APP] profile callback BAS_NOTIFY_BATTERY_LEVEL_ENABLE
+
+ 00134 2017-09-30#16:01:43.703 023 08060 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x3e
+ 00135 2017-09-30#16:01:43.734 024 08110 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 16 entry 0 ce_cnt 11 clk 006645 all 53
+ 00136 2017-09-30#16:01:43.734 027 08120 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTCCCDInfo:  count=1 ServiceID=2
+ 00137 2017-09-30#16:01:43.734 028 08120 File[026], Line[0000] [MODULE_APP] attribIndex=5, cccBits=0x0001
+ 00138 2017-09-30#16:01:43.734 029 08120 File[026], Line[0000] [MODULE_APP] profileUpdateCCCDInfo ServiceId 2
+ 00139 2017-09-30#16:01:43.734 030 08120 File[026], Line[0000] [MODULE_APP] BWPS CccdUpdateCb  Index = 5 wCCCDBits 1
+ 00140 2017-09-30#16:01:43.734 031 08120 File[026], Line[0000] [MODULE_APP] notification is enabled...
+ 00141 2017-09-30#16:01:43.750 034 08120 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x3e
+ 00142 2017-09-30#16:01:43.797 035 08170 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 14 entry 0 ce_cnt 13 clk 006705 all 60
+ 00143 2017-09-30#16:01:43.797 037 08180 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTAttributeReadInd:idx=7, offset=0
+ 00144 2017-09-30#16:01:43.797 039 08180 File[026], Line[0000] [MODULE_APP] --> GATTAttributeReadConf: wCause=0, length=12
+ 00145 2017-09-30#16:01:43.844 040 08230 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 14 entry 0 ce_cnt 15 clk 0067c5 all 67
+ 00146 2017-09-30#16:01:43.844 042 08240 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTAttributeReadInd:idx=4, offset=0
+ 00147 2017-09-30#16:01:43.875 044 08240 File[026], Line[0000] [MODULE_APP] --> GATTAttributeReadConf: wCause=0, length=6
+ 00148 2017-09-30#16:01:43.906 045 08290 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 14 entry 0 ce_cnt 17 clk 006885 all 74
+ 00149 2017-09-30#16:01:43.906 047 08300 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTAttributeReadInd:idx=6, offset=0
+ 00150 2017-09-30#16:01:43.906 048 08300 File[026], Line[0000] [MODULE_APP] patch_version = 17354
+ 00151 2017-09-30#16:01:43.937 050 08300 File[026], Line[0000] [MODULE_APP] --> GATTAttributeReadConf: wCause=0, length=2
+ 00152 2017-09-30#16:01:43.969 051 08350 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 14 entry 0 ce_cnt 19 clk 006945 all 81
+ 00153 2017-09-30#16:01:43.969 053 08360 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTAttributeReadInd:idx=8, offset=0
+ 00154 2017-09-30#16:01:43.969 054 08360 File[026], Line[0000] [MODULE_APP] app_version = 17235
+ 00155 2017-09-30#16:01:44.000 056 08360 File[026], Line[0000] [MODULE_APP] --> GATTAttributeReadConf: wCause=0, length=2
+ 00156 2017-09-30#16:01:44.031 057 08410 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 16 entry 0 ce_cnt 21 clk 006a06 all 89
+ 00157 2017-09-30#16:01:44.031 060 08420 File[026], Line[0000] [MODULE_APP] <-- profileHandle_GATTCCCDInfo:  count=1 ServiceID=5
+ 00158 2017-09-30#16:01:44.031 061 08420 File[026], Line[0000] [MODULE_APP] attribIndex=5, cccBits=0x0001
+ 00159 2017-09-30#16:01:44.031 062 08420 File[026], Line[0000] [MODULE_APP] profileUpdateCCCDInfo ServiceId 5
+ 00160 2017-09-30#16:01:44.031 063 08420 File[026], Line[0000] [MODULE_APP] DfuCccdUpdateCb  Index = 5 wCCCDBits 1
+ 00161 2017-09-30#16:01:44.062 066 08420 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x3e
+ 00162 2017-09-30#16:01:44.094 067 08470 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 34 entry 0 ce_cnt 22 clk 006ac5 all 89
+ 00163 2017-09-30#16:01:44.094 070 08480 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=45 data = 0xab gap=9 data[0]0
+ 00164 2017-09-30#16:01:44.094 071 08480 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00165 2017-09-30#16:01:44.094 073 08480 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00166 2017-09-30#16:01:44.094 074 08480 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00167 2017-09-30#16:01:44.094 075 08480 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00168 2017-09-30#16:01:44.094 077 08480 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00169 2017-09-30#16:01:44.094 078 08480 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00170 2017-09-30#16:01:44.094 079 08480 File[026], Line[0000] [MODULE_APP] command_id:3
+
+ 00171 2017-09-30#16:01:44.094 080 08480 File[026], Line[0000] [MODULE_APP] BOND_COMMAND_ID
+ 00172 2017-09-30#16:01:44.094 081 08480 File[026], Line[0000] [MODULE_APP] first_key: 3,  first_value_length: 32 
+
+ 00173 2017-09-30#16:01:44.094 082 08480 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 4 line = 259
+ 00174 2017-09-30#16:01:44.094 083 08480 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00175 2017-09-30#16:01:44.094 084 08480 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00176 2017-09-30#16:01:44.094 085 08480 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00177 2017-09-30#16:01:44.094 086 08480 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 4 line = 163
+ 00178 2017-09-30#16:01:44.094 087 08480 File[026], Line[0000] [MODULE_APP] do L1SEND_LOGIN_FAIL_EVENT line = 330
+ 00179 2017-09-30#16:01:44.094 088 08480 File[026], Line[0000] [MODULE_APP] sequence id:1
+ 00180 2017-09-30#16:01:44.094 090 08480 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00181 2017-09-30#16:01:44.094 091 08480 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00182 2017-09-30#16:01:44.094 092 08480 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00183 2017-09-30#16:01:44.109 093 08480 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00184 2017-09-30#16:01:44.125 094 08480 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00185 2017-09-30#16:01:44.156 095 08530 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 25 clk 006b85 all 133
+ 00186 2017-09-30#16:01:44.156 097 08540 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00187 2017-09-30#16:01:44.156 098 08540 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00188 2017-09-30#16:01:44.156 100 08540 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00189 2017-09-30#16:01:44.156 101 08540 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00190 2017-09-30#16:01:44.156 102 08540 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00191 2017-09-30#16:01:44.156 103 08540 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00192 2017-09-30#16:01:44.172 104 08540 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 4
+ 00193 2017-09-30#16:01:44.234 105 08590 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 34 entry 0 ce_cnt 26 clk 006c45 all 133
+ 00194 2017-09-30#16:01:44.265 108 08600 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=45 data = 0xab gap=9 data[0]0
+ 00195 2017-09-30#16:01:44.281 109 08600 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00196 2017-09-30#16:01:44.297 111 08600 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00197 2017-09-30#16:01:44.297 112 08600 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00198 2017-09-30#16:01:44.297 113 08600 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00199 2017-09-30#16:01:44.297 115 08600 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00200 2017-09-30#16:01:44.297 116 08600 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00201 2017-09-30#16:01:44.297 117 08600 File[026], Line[0000] [MODULE_APP] command_id:3
+
+ 00202 2017-09-30#16:01:44.297 118 08600 File[026], Line[0000] [MODULE_APP] BOND_COMMAND_ID
+ 00203 2017-09-30#16:01:44.297 119 08600 File[026], Line[0000] [MODULE_APP] first_key: 1,  first_value_length: 32 
+
+ 00204 2017-09-30#16:01:44.297 120 08600 File[026], Line[0000] [MODULE_APP] the first bond request
+ 00205 2017-09-30#16:01:44.297 121 08600 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 3 line = 259
+ 00206 2017-09-30#16:01:44.297 122 08600 File[026], Line[0000] [MODULE_APP] BMA253 CHIP INIT
+
+ 00207 2017-09-30#16:01:44.297 123 08610 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 3 line = 163
+ 00208 2017-09-30#16:01:44.297 124 08610 File[026], Line[0000] [MODULE_APP] do L1SEND_BOND_SUCCESS_EVENT line = 308
+ 00209 2017-09-30#16:01:44.297 125 08610 File[026], Line[0000] [MODULE_APP] sequence id:3
+ 00210 2017-09-30#16:01:44.297 127 08610 File[026], Line[0000] [MODULE_APP] type = 17, appendFlag = 0, pValue= 0x0
+ 00211 2017-09-30#16:01:44.297 128 08620 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00212 2017-09-30#16:01:44.297 129 08620 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00213 2017-09-30#16:01:44.297 130 08650 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 28 clk 006d05 all 166
+ 00214 2017-09-30#16:01:44.297 132 08680 File[026], Line[0000] [MODULE_APP] OLED RESET
+ 00215 2017-09-30#16:01:44.297 133 08680 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00216 2017-09-30#16:01:44.297 134 08680 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00217 2017-09-30#16:01:44.297 135 08680 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 9
+
+ 00218 2017-09-30#16:01:44.297 136 08680 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00219 2017-09-30#16:01:44.297 137 08680 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00220 2017-09-30#16:01:44.297 138 08680 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00221 2017-09-30#16:01:44.297 139 08680 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00222 2017-09-30#16:01:44.328 140 08680 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00223 2017-09-30#16:01:44.328 142 08680 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00224 2017-09-30#16:01:44.328 143 08680 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00225 2017-09-30#16:01:44.328 144 08680 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00226 2017-09-30#16:01:44.328 145 08680 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00227 2017-09-30#16:01:44.328 146 08680 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 3
+ 00228 2017-09-30#16:01:44.328 147 08710 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 28 entry 0 ce_cnt 31 clk 006dc6 all 191
+ 00229 2017-09-30#16:01:44.328 149 08720 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=14 data = 0xab gap=9 data[0]0
+ 00230 2017-09-30#16:01:44.328 150 08720 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00231 2017-09-30#16:01:44.328 152 08720 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00232 2017-09-30#16:01:44.328 153 08720 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00233 2017-09-30#16:01:44.328 154 08720 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00234 2017-09-30#16:01:44.344 156 08720 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00235 2017-09-30#16:01:44.344 157 08720 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00236 2017-09-30#16:01:44.344 158 08720 File[026], Line[0000] [MODULE_APP] command_id:5
+
+ 00237 2017-09-30#16:01:44.344 159 08720 File[026], Line[0000] [MODULE_APP] HEALTH_DATA_COMMAND_ID,len:6 - 1:0:50 
+
+ 00238 2017-09-30#16:01:44.344 160 08720 File[026], Line[0000] [MODULE_APP] key 6:len:1 - 0
+ 00239 2017-09-30#16:01:44.344 161 08720 File[026], Line[0000] [MODULE_APP] KEY_SET_STEPS_NOTIFY value:0
+
+ 00240 2017-09-30#16:01:44.344 162 08720 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00241 2017-09-30#16:01:44.344 163 08720 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00242 2017-09-30#16:01:44.359 164 08720 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00243 2017-09-30#16:01:44.422 165 08800 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 30 entry 0 ce_cnt 34 clk 006ee6 all 206
+ 00244 2017-09-30#16:01:44.422 167 08810 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=17 data = 0xab gap=9 data[0]0
+ 00245 2017-09-30#16:01:44.422 168 08810 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00246 2017-09-30#16:01:44.422 170 08810 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00247 2017-09-30#16:01:44.422 171 08810 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00248 2017-09-30#16:01:44.422 172 08810 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00249 2017-09-30#16:01:44.422 174 08810 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00250 2017-09-30#16:01:44.422 175 08810 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00251 2017-09-30#16:01:44.422 176 08810 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00252 2017-09-30#16:01:44.422 177 08810 File[026], Line[0000] [MODULE_APP] Pedo Algorithm Version 1946; Sleep Algorithm Version 1946
+ 00253 2017-09-30#16:01:44.422 179 08810 File[026], Line[0000] [MODULE_APP] SETTINGS---key 16:len:4 - 156
+
+ 00254 2017-09-30#16:01:44.422 180 08810 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00255 2017-09-30#16:01:44.422 181 08810 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00256 2017-09-30#16:01:44.453 182 08810 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00257 2017-09-30#16:01:44.484 183 08860 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 30 entry 0 ce_cnt 36 clk 006fa6 all 221
+ 00258 2017-09-30#16:01:44.484 185 08870 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=17 data = 0xab gap=9 data[0]0
+ 00259 2017-09-30#16:01:44.484 186 08870 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00260 2017-09-30#16:01:44.484 188 08870 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00261 2017-09-30#16:01:44.484 189 08870 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00262 2017-09-30#16:01:44.484 190 08870 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00263 2017-09-30#16:01:44.484 192 08870 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00264 2017-09-30#16:01:44.484 193 08870 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00265 2017-09-30#16:01:44.484 194 08870 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00266 2017-09-30#16:01:44.484 195 08870 File[026], Line[0000] [MODULE_APP] SETTINGS---key 5:len:4 - 0
+
+ 00267 2017-09-30#16:01:44.484 196 08870 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00268 2017-09-30#16:01:44.484 197 08870 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00269 2017-09-30#16:01:44.515 198 08870 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00270 2017-09-30#16:01:44.547 199 08920 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 30 entry 0 ce_cnt 38 clk 007066 all 236
+ 00271 2017-09-30#16:01:44.547 201 08930 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=17 data = 0xab gap=9 data[0]0
+ 00272 2017-09-30#16:01:44.547 202 08930 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00273 2017-09-30#16:01:44.547 204 08930 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00274 2017-09-30#16:01:44.547 205 08930 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00275 2017-09-30#16:01:44.547 206 08930 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00276 2017-09-30#16:01:44.547 208 08930 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00277 2017-09-30#16:01:44.547 209 08930 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00278 2017-09-30#16:01:44.547 210 08930 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00279 2017-09-30#16:01:44.547 211 08930 File[026], Line[0000] [MODULE_APP] wall_clock_start second_diff_value: 19
+ 00280 2017-09-30#16:01:44.547 212 08930 File[026], Line[0000] [MODULE_APP] set time:17-9-30=16:1:41  seconds_diff: 19
+
+ 00281 2017-09-30#16:01:44.547 213 08930 File[026], Line[0000] [MODULE_APP] do New Time Setting For PedoData!
+ 00282 2017-09-30#16:01:44.547 214 08930 File[026], Line[0000] [MODULE_APP] offset NOT equal, MODIFY TIME AFTER/BEFORE CURRENT TIME!
+ 00283 2017-09-30#16:01:44.547 215 08930 File[026], Line[0000] [MODULE_APP] SETTINGS---key 1:len:4 - 70
+
+ 00284 2017-09-30#16:01:44.547 216 08930 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00285 2017-09-30#16:01:44.547 217 08930 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00286 2017-09-30#16:01:44.578 218 08930 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00287 2017-09-30#16:01:44.594 219 08980 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 28 entry 0 ce_cnt 39 clk 007126 all 236
+ 00288 2017-09-30#16:01:44.594 221 08990 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=15 data = 0xab gap=9 data[0]0
+ 00289 2017-09-30#16:01:44.609 222 08990 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00290 2017-09-30#16:01:44.609 224 08990 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00291 2017-09-30#16:01:44.609 225 08990 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00292 2017-09-30#16:01:44.609 226 08990 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00293 2017-09-30#16:01:44.609 228 08990 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00294 2017-09-30#16:01:44.609 229 08990 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00295 2017-09-30#16:01:44.609 230 08990 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00296 2017-09-30#16:01:44.609 231 08990 File[026], Line[0000] [MODULE_APP] PHONE os version setting:1
+
+ 00297 2017-09-30#16:01:44.609 233 08990 File[026], Line[0000] [MODULE_APP] SETTINGS---key 35:len:2 - 1
+
+ 00298 2017-09-30#16:01:44.609 234 08990 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00299 2017-09-30#16:01:44.609 235 08990 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00300 2017-09-30#16:01:44.609 236 08990 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00301 2017-09-30#16:01:44.609 237 08990 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0xc
+ 00302 2017-09-30#16:01:44.640 238 08990 File[026], Line[0000] [MODULE_APP] peripheral_HandleBtGapMessage subType = 2
+ 00303 2017-09-30#16:01:44.735 239 09040 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 18 entry 0 ce_cnt 41 clk 0071e5 all 250
+ 00304 2017-09-30#16:01:44.735 244 00140 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Rand Command, opcode: 0x2018, len: 0x00, No parameters
+ 00304 2017-09-30#16:01:44.735 244 09050 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2018 len:0, 41 00 00 00 00 00 20 00 00 01 00 00 00 00 00 0b 00 01  
+ 00305 2017-09-30#16:01:44.735 245 09050 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=18 len:0, 41 00 00 00 00 00 20 00 00 01 00 00 00 00 00 0b 00 01
+ 00306 2017-09-30#16:01:44.735 246 00140 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x0c, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x18 20, Return_Parameter Size: Depends on Command
+ 00306 2017-09-30#16:01:44.735 246 09050 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:12, 02 18 20 00 25 da 59 e1 23 b0 b1 60 18 00 00 00 48 00  
+ 00307 2017-09-30#16:01:44.750 250 00140 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Rand Command, opcode: 0x2018, len: 0x00, No parameters
+ 00307 2017-09-30#16:01:44.750 250 09050 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2018 len:0, 41 00 00 00 00 00 20 00 00 01 00 00 00 00 00 0b 00 01  
+ 00308 2017-09-30#16:01:44.750 251 09050 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=18 len:0, 41 00 00 00 00 00 20 00 00 01 00 00 00 00 00 0b 00 01
+ 00309 2017-09-30#16:01:44.750 252 00140 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x0c, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x18 20, Return_Parameter Size: Depends on Command
+ 00309 2017-09-30#16:01:44.750 252 09050 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:12, 02 18 20 00 33 29 29 70 22 2a aa 5f 18 00 00 00 48 00  
+ 00310 2017-09-30#16:01:44.750 255 00140 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Encrypt Command, opcode: 0x2017, len: 0x00, Key: 0x00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00, Plaintext_Data is out of buffer
+ 00310 2017-09-30#16:01:44.750 255 09050 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2017 len:32, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 24 da  
+ 00311 2017-09-30#16:01:44.750 000 09050 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=17 len:32, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 24 da
+ 00312 2017-09-30#16:01:44.750 001 09050 File[205], Line[2037] [MODULE_LOWERSTACK] [LL]SessKey_In: data(0x00000000000000000000000000000000) text(0x5ca93a23702a2b3063a1b123e558da24)
+ 00313 2017-09-30#16:01:44.750 002 09050 File[205], Line[2041] [MODULE_LOWERSTACK] [LL]SessKey_Out: key(0x45c492795da44a3e810a50e03fe95029)
+ 00314 2017-09-30#16:01:44.750 003 00140 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x14, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x17 20, Return_Parameter Size: Depends on Command
+ 00314 2017-09-30#16:01:44.750 003 09050 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:20, 02 17 20 00 29 50 e9 3f e0 50 0a 81 3e 4a a4 5d 79 92  
+ 00315 2017-09-30#16:01:44.766 006 00140 File[011], Line[0143] [MODULE_LOWERSTACK] HCI_CMD: LE Encrypt Command, opcode: 0x2017, len: 0x00, Key: 0x00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00, Plaintext_Data is out of buffer
+ 00315 2017-09-30#16:01:44.766 006 09050 File[011], Line[0143] [MODULE_LOWERSTACK] ---->HCI_CMD:opcode:2017 len:32, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2c 64  
+ 00316 2017-09-30#16:01:44.766 007 09050 File[203], Line[2906] [MODULE_LOWERSTACK] ====>HCI LE Cmd:ocf=17 len:32, 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2c 64
+ 00317 2017-09-30#16:01:44.766 008 09050 File[205], Line[2037] [MODULE_LOWERSTACK] [LL]SessKey_In: data(0x00000000000000000000000000000000) text(0x45c492791cfd20e175f2bcfd40fb642c)
+ 00318 2017-09-30#16:01:44.766 009 09050 File[205], Line[2041] [MODULE_LOWERSTACK] [LL]SessKey_Out: key(0xb6ad7e4f6993d1589fd1343a75f2c73d)
+ 00319 2017-09-30#16:01:44.766 010 00140 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: Command Complete Event, code: 0x0E, len: 0x14, Num_HCI_Command_Packets: 0x02, Command_Opcode: 0x17 20, Return_Parameter Size: Depends on Command
+ 00319 2017-09-30#16:01:44.766 010 09050 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:0e len:20, 02 17 20 00 3d c7 f2 75 3a 34 d1 9f 58 d1 93 69 4f 7e  
+ 00320 2017-09-30#16:01:44.766 012 09050 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=25 data = 0xab gap=9 data[0]0
+ 00321 2017-09-30#16:01:44.766 013 09050 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00322 2017-09-30#16:01:44.766 015 09050 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00323 2017-09-30#16:01:44.766 016 09050 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00324 2017-09-30#16:01:44.766 017 09050 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00325 2017-09-30#16:01:44.766 019 09050 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00326 2017-09-30#16:01:44.782 020 09050 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00327 2017-09-30#16:01:44.782 021 09050 File[026], Line[0000] [MODULE_APP] command_id:5
+
+ 00328 2017-09-30#16:01:44.782 022 09050 File[026], Line[0000] [MODULE_APP] HEALTH_DATA_COMMAND_ID,len:17 - 12:0:0 
+
+ 00329 2017-09-30#16:01:44.782 023 09050 File[026], Line[0000] [MODULE_APP] key 9:len:12 - 0
+ 00330 2017-09-30#16:01:44.782 024 09050 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00331 2017-09-30#16:01:44.782 025 09050 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00332 2017-09-30#16:01:44.782 026 09050 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00333 2017-09-30#16:01:44.782 027 09100 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 34 entry 0 ce_cnt 43 clk 0072a5 all 282
+ 00334 2017-09-30#16:01:44.782 030 09110 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=23 data = 0xab gap=9 data[0]0
+ 00335 2017-09-30#16:01:44.782 031 09110 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00336 2017-09-30#16:01:44.782 033 09110 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00337 2017-09-30#16:01:44.782 034 09110 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00338 2017-09-30#16:01:44.782 035 09110 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00339 2017-09-30#16:01:44.782 037 09110 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00340 2017-09-30#16:01:44.782 038 09110 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00341 2017-09-30#16:01:44.782 039 09110 File[026], Line[0000] [MODULE_APP] command_id:5
+
+ 00342 2017-09-30#16:01:44.782 040 09110 File[026], Line[0000] [MODULE_APP] HEALTH_DATA_COMMAND_ID,len:15 - 10:0:0 
+
+ 00343 2017-09-30#16:01:44.782 041 09110 File[026], Line[0000] [MODULE_APP] key 10:len:10 - 0
+ 00344 2017-09-30#16:01:44.782 042 09110 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00345 2017-09-30#16:01:44.782 043 09110 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00346 2017-09-30#16:01:44.782 044 09110 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00347 2017-09-30#16:01:44.782 045 09160 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 26 entry 0 ce_cnt 46 clk 007366 all 317
+ 00348 2017-09-30#16:01:44.797 047 09170 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=13 data = 0xab gap=9 data[0]0
+ 00349 2017-09-30#16:01:44.797 048 09170 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00350 2017-09-30#16:01:44.797 050 09170 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00351 2017-09-30#16:01:44.797 051 09170 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00352 2017-09-30#16:01:44.797 052 09170 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00353 2017-09-30#16:01:44.797 054 09170 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00354 2017-09-30#16:01:44.797 055 09170 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00355 2017-09-30#16:01:44.797 056 09170 File[026], Line[0000] [MODULE_APP] command_id:5
+
+ 00356 2017-09-30#16:01:44.797 057 09170 File[026], Line[0000] [MODULE_APP] HEALTH_DATA_COMMAND_ID,len:5 - 0:0:0 
+
+ 00357 2017-09-30#16:01:44.797 058 09170 File[026], Line[0000] [MODULE_APP] key 17:len:0 - 0
+ 00358 2017-09-30#16:01:44.797 059 09170 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 17 line = 259
+ 00359 2017-09-30#16:01:44.797 060 09170 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00360 2017-09-30#16:01:44.797 061 09170 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00361 2017-09-30#16:01:44.797 062 09170 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00362 2017-09-30#16:01:44.797 063 09170 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 17 line = 163
+ 00363 2017-09-30#16:01:44.797 064 09170 File[026], Line[0000] [MODULE_APP] do L1SEND_RETURN_HEART_SETTING line = 206
+ 00364 2017-09-30#16:01:44.797 065 09170 File[026], Line[0000] [MODULE_APP] sequence id:5
+ 00365 2017-09-30#16:01:44.797 067 09170 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00366 2017-09-30#16:01:44.797 068 09170 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00367 2017-09-30#16:01:44.797 069 09170 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00368 2017-09-30#16:01:44.797 070 09170 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00369 2017-09-30#16:01:44.828 071 09170 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00370 2017-09-30#16:01:44.844 072 09220 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 26 entry 0 ce_cnt 48 clk 007426 all 330
+ 00371 2017-09-30#16:01:44.844 074 09230 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=13 data = 0xab gap=9 data[0]0
+ 00372 2017-09-30#16:01:44.844 075 09230 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00373 2017-09-30#16:01:44.844 077 09230 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00374 2017-09-30#16:01:44.844 078 09230 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00375 2017-09-30#16:01:44.844 079 09230 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00376 2017-09-30#16:01:44.844 081 09230 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00377 2017-09-30#16:01:44.844 082 09230 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00378 2017-09-30#16:01:44.844 083 09230 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00379 2017-09-30#16:01:44.844 084 09230 File[026], Line[0000] [MODULE_APP] SETTINGS---key 38:len:0 - 0
+
+ 00380 2017-09-30#16:01:44.844 085 09230 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00381 2017-09-30#16:01:44.844 086 09230 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00382 2017-09-30#16:01:44.875 087 09230 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00383 2017-09-30#16:01:44.907 088 09280 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 50 clk 0074e5 all 341
+ 00384 2017-09-30#16:01:44.907 090 09290 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00385 2017-09-30#16:01:44.907 091 09290 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00386 2017-09-30#16:01:44.907 093 09290 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00387 2017-09-30#16:01:44.907 094 09290 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00388 2017-09-30#16:01:44.907 095 09290 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00389 2017-09-30#16:01:44.907 096 09290 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00390 2017-09-30#16:01:44.907 097 09290 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 17
+ 00391 2017-09-30#16:01:44.907 098 09290 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 10 line = 551
+ 00392 2017-09-30#16:01:44.907 099 09290 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 10 line = 163
+ 00393 2017-09-30#16:01:44.907 100 09290 File[026], Line[0000] [MODULE_APP] do L1SEND_SIT_SETTING_RETURN line = 491
+ 00394 2017-09-30#16:01:44.907 101 09290 File[026], Line[0000] [MODULE_APP] long time setting:0x0
+ 00395 2017-09-30#16:01:44.907 102 09290 File[026], Line[0000] [MODULE_APP] sequence id:7
+ 00396 2017-09-30#16:01:44.907 104 09290 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00397 2017-09-30#16:01:44.907 105 09290 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00398 2017-09-30#16:01:44.907 106 09290 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00399 2017-09-30#16:01:44.907 107 09290 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00400 2017-09-30#16:01:44.938 108 09290 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00401 2017-09-30#16:01:44.969 109 09340 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 26 entry 0 ce_cnt 52 clk 0075a6 all 354
+ 00402 2017-09-30#16:01:44.969 111 09350 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=13 data = 0xab gap=9 data[0]0
+ 00403 2017-09-30#16:01:44.969 112 09350 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00404 2017-09-30#16:01:44.969 114 09350 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00405 2017-09-30#16:01:44.969 115 09350 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00406 2017-09-30#16:01:44.969 116 09350 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00407 2017-09-30#16:01:44.969 118 09350 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00408 2017-09-30#16:01:44.969 119 09350 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00409 2017-09-30#16:01:44.969 120 09350 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00410 2017-09-30#16:01:44.969 121 09350 File[026], Line[0000] [MODULE_APP] SETTINGS---key 43:len:0 - 0
+
+ 00411 2017-09-30#16:01:44.969 122 09350 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00412 2017-09-30#16:01:44.969 123 09350 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00413 2017-09-30#16:01:44.969 124 09350 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00414 2017-09-30#16:01:45.000 125 09360 File[026], Line[0000] [MODULE_APP] HWTimerCallBack !
+ 00415 2017-09-30#16:01:45.016 126 09400 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 54 clk 007666 all 365
+ 00416 2017-09-30#16:01:45.016 128 09410 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00417 2017-09-30#16:01:45.016 129 09410 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00418 2017-09-30#16:01:45.016 131 09410 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00419 2017-09-30#16:01:45.016 132 09410 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00420 2017-09-30#16:01:45.016 133 09410 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00421 2017-09-30#16:01:45.016 134 09410 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00422 2017-09-30#16:01:45.016 135 09410 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 10
+ 00423 2017-09-30#16:01:45.016 136 09410 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 8 line = 551
+ 00424 2017-09-30#16:01:45.016 137 09410 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 8 line = 163
+ 00425 2017-09-30#16:01:45.016 138 09410 File[026], Line[0000] [MODULE_APP] do L1SEND_TWIST_SWTICH_RETURN_EVENT line = 449
+ 00426 2017-09-30#16:01:45.016 139 09410 File[026], Line[0000] [MODULE_APP] line = 462,twist_switch_status:0
+
+ 00427 2017-09-30#16:01:45.047 140 09410 File[026], Line[0000] [MODULE_APP] sequence id:9
+ 00428 2017-09-30#16:01:45.047 142 09410 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00429 2017-09-30#16:01:45.047 143 09410 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00430 2017-09-30#16:01:45.047 144 09410 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00431 2017-09-30#16:01:45.047 145 09410 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00432 2017-09-30#16:01:45.047 146 09410 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00433 2017-09-30#16:01:45.078 147 09460 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 26 entry 0 ce_cnt 56 clk 007726 all 378
+ 00434 2017-09-30#16:01:45.078 149 09470 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=13 data = 0xab gap=9 data[0]0
+ 00435 2017-09-30#16:01:45.078 150 09470 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00436 2017-09-30#16:01:45.078 152 09470 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00437 2017-09-30#16:01:45.078 153 09470 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00438 2017-09-30#16:01:45.078 154 09470 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00439 2017-09-30#16:01:45.078 156 09470 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00440 2017-09-30#16:01:45.078 157 09470 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00441 2017-09-30#16:01:45.078 158 09470 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00442 2017-09-30#16:01:45.078 159 09470 File[026], Line[0000] [MODULE_APP] SETTINGS---key 40:len:0 - 0
+
+ 00443 2017-09-30#16:01:45.078 160 09470 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00444 2017-09-30#16:01:45.078 161 09470 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00445 2017-09-30#16:01:45.110 162 09470 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00446 2017-09-30#16:01:45.141 163 09520 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 58 clk 0077e5 all 389
+ 00447 2017-09-30#16:01:45.141 165 09530 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00448 2017-09-30#16:01:45.141 166 09530 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00449 2017-09-30#16:01:45.141 168 09530 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00450 2017-09-30#16:01:45.141 169 09530 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00451 2017-09-30#16:01:45.141 170 09530 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00452 2017-09-30#16:01:45.141 171 09530 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00453 2017-09-30#16:01:45.141 172 09530 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 8
+ 00454 2017-09-30#16:01:45.141 173 09530 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 9 line = 551
+ 00455 2017-09-30#16:01:45.141 174 09530 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 9 line = 163
+ 00456 2017-09-30#16:01:45.141 175 09530 File[026], Line[0000] [MODULE_APP] do L1SEND_INCOMMING_MESSAGE_SETTINGS_RETURN line = 470
+ 00457 2017-09-30#16:01:45.141 176 09530 File[026], Line[0000] [MODULE_APP] incomming message setting:0x0
+ 00458 2017-09-30#16:01:45.141 177 09530 File[026], Line[0000] [MODULE_APP] sequence id:11
+ 00459 2017-09-30#16:01:45.141 179 09530 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00460 2017-09-30#16:01:45.141 180 09530 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00461 2017-09-30#16:01:45.141 181 09530 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00462 2017-09-30#16:01:45.141 182 09530 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00463 2017-09-30#16:01:45.172 183 09530 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00464 2017-09-30#16:01:45.203 184 09580 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 26 entry 0 ce_cnt 60 clk 0078a6 all 402
+ 00465 2017-09-30#16:01:45.203 186 09590 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=13 data = 0xab gap=9 data[0]0
+ 00466 2017-09-30#16:01:45.203 187 09590 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00467 2017-09-30#16:01:45.203 189 09590 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00468 2017-09-30#16:01:45.203 190 09590 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00469 2017-09-30#16:01:45.203 191 09590 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00470 2017-09-30#16:01:45.203 193 09590 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00471 2017-09-30#16:01:45.203 194 09590 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00472 2017-09-30#16:01:45.203 195 09590 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00473 2017-09-30#16:01:45.203 196 09590 File[026], Line[0000] [MODULE_APP] SETTINGS---key 3:len:0 - 0
+
+ 00474 2017-09-30#16:01:45.203 197 09590 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00475 2017-09-30#16:01:45.203 198 09590 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00476 2017-09-30#16:01:45.235 199 09590 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00477 2017-09-30#16:01:45.266 200 09640 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 62 clk 007965 all 413
+ 00478 2017-09-30#16:01:45.266 202 09650 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00479 2017-09-30#16:01:45.266 203 09650 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00480 2017-09-30#16:01:45.266 205 09650 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00481 2017-09-30#16:01:45.266 206 09650 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00482 2017-09-30#16:01:45.266 207 09650 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00483 2017-09-30#16:01:45.266 208 09650 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00484 2017-09-30#16:01:45.266 209 09650 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 9
+ 00485 2017-09-30#16:01:45.266 210 09650 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 6 line = 551
+ 00486 2017-09-30#16:01:45.266 211 09650 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 6 line = 163
+ 00487 2017-09-30#16:01:45.266 212 09650 File[026], Line[0000] [MODULE_APP] do L1SEND_RETURN_ALARM_EVENT line = 372
+ 00488 2017-09-30#16:01:45.266 213 09650 File[026], Line[0000] [MODULE_APP] sequence id:13
+ 00489 2017-09-30#16:01:45.266 215 09650 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00490 2017-09-30#16:01:45.266 216 09650 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00491 2017-09-30#16:01:45.266 217 09650 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00492 2017-09-30#16:01:45.266 218 09650 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00493 2017-09-30#16:01:45.297 219 09650 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00494 2017-09-30#16:01:45.329 220 09700 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 26 entry 0 ce_cnt 64 clk 007a26 all 426
+ 00495 2017-09-30#16:01:45.329 222 09710 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=13 data = 0xab gap=9 data[0]0
+ 00496 2017-09-30#16:01:45.329 223 09710 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00497 2017-09-30#16:01:45.329 225 09710 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00498 2017-09-30#16:01:45.329 226 09710 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00499 2017-09-30#16:01:45.329 227 09710 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00500 2017-09-30#16:01:45.329 229 09710 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00501 2017-09-30#16:01:45.329 230 09710 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00502 2017-09-30#16:01:45.329 231 09710 File[026], Line[0000] [MODULE_APP] command_id:5
+
+ 00503 2017-09-30#16:01:45.329 232 09710 File[026], Line[0000] [MODULE_APP] HEALTH_DATA_COMMAND_ID,len:5 - 0:0:0 
+
+ 00504 2017-09-30#16:01:45.329 233 09710 File[026], Line[0000] [MODULE_APP] key 1:len:0 - 0
+ 00505 2017-09-30#16:01:45.329 234 09710 File[026], Line[0000] [MODULE_APP] KEY_REQUEST_DATA
+ 00506 2017-09-30#16:01:45.329 235 09710 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00507 2017-09-30#16:01:45.329 236 09710 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00508 2017-09-30#16:01:45.360 237 09710 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00509 2017-09-30#16:01:45.375 238 09760 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 66 clk 007ae6 all 437
+ 00510 2017-09-30#16:01:45.375 240 09770 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00511 2017-09-30#16:01:45.375 241 09770 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00512 2017-09-30#16:01:45.375 243 09770 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00513 2017-09-30#16:01:45.375 244 09770 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00514 2017-09-30#16:01:45.375 245 09770 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00515 2017-09-30#16:01:45.375 246 09770 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00516 2017-09-30#16:01:45.375 247 09770 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 6
+ 00517 2017-09-30#16:01:45.391 248 09770 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 11 line = 551
+ 00518 2017-09-30#16:01:45.391 249 09770 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 11 line = 163
+ 00519 2017-09-30#16:01:45.391 250 09770 File[026], Line[0000] [MODULE_APP] do L1SEND_HISTORY_DATA_SYNC_START line = 235
+ 00520 2017-09-30#16:01:45.391 251 09770 File[026], Line[0000] [MODULE_APP] sequence id:15
+ 00521 2017-09-30#16:01:45.391 253 09770 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00522 2017-09-30#16:01:45.391 254 09770 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00523 2017-09-30#16:01:45.391 255 09770 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00524 2017-09-30#16:01:45.391 000 09770 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00525 2017-09-30#16:01:45.407 001 09770 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00526 2017-09-30#16:01:45.438 002 09820 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 68 clk 007ba5 all 448
+ 00527 2017-09-30#16:01:45.438 004 09830 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00528 2017-09-30#16:01:45.438 005 09830 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00529 2017-09-30#16:01:45.438 007 09830 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00530 2017-09-30#16:01:45.438 008 09830 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00531 2017-09-30#16:01:45.438 009 09830 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00532 2017-09-30#16:01:45.438 010 09830 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00533 2017-09-30#16:01:45.438 011 09830 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 11
+ 00534 2017-09-30#16:01:45.438 012 09830 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 13 line = 551
+ 00535 2017-09-30#16:01:45.438 013 09830 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 13 line = 163
+ 00536 2017-09-30#16:01:45.438 014 09830 File[026], Line[0000] [MODULE_APP] do L1SEND_SPORT_DATA line = 168
+ 00537 2017-09-30#16:01:45.438 015 09830 File[026], Line[0000] [MODULE_APP] sync sport history SportsData_write_addr = 5472256,SportsData_read_addr = 5472256
+ 00538 2017-09-30#16:01:45.438 016 09830 File[026], Line[0000] [MODULE_APP] no sport data in eflash
+ 00539 2017-09-30#16:01:45.469 017 09830 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 13
+ 00540 2017-09-30#16:01:45.469 018 09830 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 14 line = 551
+ 00541 2017-09-30#16:01:45.469 019 09830 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 14 line = 163
+ 00542 2017-09-30#16:01:45.469 020 09830 File[026], Line[0000] [MODULE_APP] do L1SEND_SLEEP_DATA line = 174
+ 00543 2017-09-30#16:01:45.469 021 09830 File[026], Line[0000] [MODULE_APP] sync sleep history SleepData_write_addr = 5468160,SleepData_read_addr = 5468160
+ 00544 2017-09-30#16:01:45.469 022 09830 File[026], Line[0000] [MODULE_APP] no sleep data in eflash
+ 00545 2017-09-30#16:01:45.469 023 09830 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 14
+ 00546 2017-09-30#16:01:45.469 024 09830 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 15 line = 551
+ 00547 2017-09-30#16:01:45.469 025 09830 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 15 line = 163
+ 00548 2017-09-30#16:01:45.469 026 09830 File[026], Line[0000] [MODULE_APP] do L1SEND_HEART_DATA line = 180
+ 00549 2017-09-30#16:01:45.469 027 09830 File[026], Line[0000] [MODULE_APP] sync heart history HeartData_write_addr = 5476352,HeartData_read_addr = 5476352
+ 00550 2017-09-30#16:01:45.469 028 09830 File[026], Line[0000] [MODULE_APP] no heart rate data in eflash
+ 00551 2017-09-30#16:01:45.469 029 09830 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 15
+ 00552 2017-09-30#16:01:45.469 030 09830 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 12 line = 551
+ 00553 2017-09-30#16:01:45.469 031 09830 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 12 line = 163
+ 00554 2017-09-30#16:01:45.469 032 09830 File[026], Line[0000] [MODULE_APP] do L1SEND_HISTORY_DATA_SYNC_END line = 255
+ 00555 2017-09-30#16:01:45.469 033 09830 File[026], Line[0000] [MODULE_APP] sequence id:17
+ 00556 2017-09-30#16:01:45.469 035 09830 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00557 2017-09-30#16:01:45.469 036 09830 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00558 2017-09-30#16:01:45.469 037 09830 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00559 2017-09-30#16:01:45.469 038 09830 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00560 2017-09-30#16:01:45.485 039 09830 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00561 2017-09-30#16:01:45.500 040 09880 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 70 clk 007c65 all 459
+ 00562 2017-09-30#16:01:45.500 042 09890 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00563 2017-09-30#16:01:45.500 043 09890 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00564 2017-09-30#16:01:45.500 045 09890 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00565 2017-09-30#16:01:45.500 046 09890 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00566 2017-09-30#16:01:45.500 047 09890 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00567 2017-09-30#16:01:45.500 048 09890 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00568 2017-09-30#16:01:45.500 049 09890 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 12
+ 00569 2017-09-30#16:01:45.500 050 09890 File[026], Line[0000] [MODULE_APP] do MSG_UPDATE_CONPARA handle...
+ 00570 2017-09-30#16:01:45.500 051 09890 File[026], Line[0000] [MODULE_APP] current connec param,interval:0x18, latency:0x0, supervision_timeout:0x48
+
+ 00571 2017-09-30#16:01:45.532 052 09890 File[026], Line[0000] [MODULE_APP] connection param update request...
+ 00572 2017-09-30#16:01:45.563 054 09940 File[204], Line[2986] [MODULE_LOWERSTACK] <= [LL] LL Ctrl PDU received, opc:0 m:0 ent:0 len:12 pause_enc:0 start_enc:0 counter:72 data:00 03 48 00 48 00 06 00
+ 00573 2017-09-30#16:01:45.579 055 09940 File[205], Line[1573] [MODULE_LOWERSTACK] LE Conn Updt entry:0, reg0x22:0x0003, reg0x24:0x0048
+ 00574 2017-09-30#16:01:45.579 056 09940 File[000], Line[7362] [MODULE_LOWERSTACK] [LL] Connection Update received. Entry:72. CE_Count:71, Instant:80, win_size:0x0003 win_ofst:0048 ce_int:0048 slv_la:0006 sup:0x01f4 ce_len:0x008e
+ 00575 2017-09-30#16:01:45.579 057 09940 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 18 entry 0 ce_cnt 72 clk 007d26 all 468
+ 00576 2017-09-30#16:01:45.594 059 09980 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x5a
+ 00577 2017-09-30#16:01:45.594 060 09980 File[026], Line[0000] [MODULE_APP] peripheral_HandleBtGapMessage subType = 7
+ 00578 2017-09-30#16:01:45.610 061 09980 File[026], Line[0000] [MODULE_APP] BT_MSG_TYPE_CONN_PARA_UPDATE_CHANGE pending
+ 00579 2017-09-30#16:01:45.625 062 10000 File[100], Line[0694] [MODULE_LOWERSTACK] WK:0, le_inst_rpt: 0x1e68, le_cnt:1, le_bm:0001, adv:0(0x04b0), scan:0(int0x0010,win0x0010),dup:0, init:0(int0x0010,win0x0010)
+ 00580 2017-09-30#16:01:45.625 063 10000 File[100], Line[0720] [MODULE_LOWERSTACK] m:0, en0(int:24, counter:73, restart:73, sup_to:72 latency:0 sup_timer:20002018) en1(int:-2147483576, counter:0, restart:0, sup_to:0 latency:768) dummy : c20
+ 00581 2017-09-30#16:01:45.625 064 10000 File[001], Line[0392] [MODULE_LOWERSTACK] sta(7000) anchor(0x00000000)
+ 00582 2017-09-30#16:01:45.625 065 10000 File[001], Line[0392] [MODULE_LOWERSTACK] sta(7000) anchor(0x00000000)
+ 00583 2017-09-30#16:01:45.750 066 10110 File[026], Line[0000] [MODULE_APP] HWTimerCallBack !
+ 00584 2017-09-30#16:01:45.922 068 10300 File[206], Line[1332] [MODULE_LOWERSTACK] dape_test_log427: i:1, ce_interval:6, initiator_unit.conn_interval:6, ce_interval_same:1, ce_interval_min:6, ce_interval_second_min:888
+ 00585 2017-09-30#16:01:45.922 070 00640 File[011], Line[0292] [MODULE_LOWERSTACK] HCI_EVENT: LE Connection Update Complete Event, code: 0x3E, len: 0x0a, Subevent_Code: 0x03, Status: 0x00, Connection_Handle: 0x0f 00, Conn_Interval: 0x48 00, Conn_Latency: 0x06 00, Supervision_Timeout: 0xf4 01 
+ 00585 2017-09-30#16:01:45.922 070 10300 File[011], Line[0292] [MODULE_LOWERSTACK] <----HCI_EVENT:code:3e len:10, 03 00 0f 00 48 00 06 00 f4 01 d1 9f 58 d1 93 69 4f 7e  
+ 00586 2017-09-30#16:01:45.922 072 10300 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 12 entry 0 ce_cnt 80 clk 0081a4 all 476
+ 00587 2017-09-30#16:01:45.922 073 10300 File[206], Line[1553] [MODULE_LOWERSTACK] [LL]Get LE SLOT OFST: conn_entry:0, role:0, full_real_anchor_point:0x0, real_anchor_point:0x9ca, anchor_point_slot:0x40d1, phandle->slot_offset:33, conn_interval_slot:144
+ 00588 2017-09-30#16:01:45.938 075 10310 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x5d
+ 00589 2017-09-30#16:01:45.938 076 10310 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0xc
+ 00590 2017-09-30#16:01:45.938 077 10310 File[026], Line[0000] [MODULE_APP] profile_HandleMessage: unhandled 0x3d
+ 00591 2017-09-30#16:01:45.938 078 10310 File[026], Line[0000] [MODULE_APP] peripheral_HandleBtGapMessage subType = 7
+ 00592 2017-09-30#16:01:45.938 079 10310 File[026], Line[0000] [MODULE_APP] BT_MSG_TYPE_CONN_PARA_UPDATE_CHANGE update success, con_interval = 0x48, conn_slave_latency = 0x6, conn_supervision_timeout = 0x1f4
+ 00593 2017-09-30#16:01:45.938 080 10310 File[026], Line[0000] [MODULE_APP] peripheral_HandleBtGapMessage subType = 2
+ 00594 2017-09-30#16:01:45.938 081 10310 File[026], Line[0000] [MODULE_APP] BT_MSG_TYPE_BOND_STATE_CHANGE:(GAPBOND_PAIRING_STATE_COMPLETE),status:1
+ 00595 2017-09-30#16:01:45.938 084 10310 File[026], Line[0000] [MODULE_APP] msg_switch_bit save success 
+
+ 00596 2017-09-30#16:01:45.938 085 10310 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 9 line = 259
+ 00597 2017-09-30#16:01:45.938 086 10310 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 9 line = 163
+ 00598 2017-09-30#16:01:45.938 087 10310 File[026], Line[0000] [MODULE_APP] do L1SEND_INCOMMING_MESSAGE_SETTINGS_RETURN line = 470
+ 00599 2017-09-30#16:01:45.938 088 10310 File[026], Line[0000] [MODULE_APP] incomming message setting:0x0
+ 00600 2017-09-30#16:01:45.954 089 10310 File[026], Line[0000] [MODULE_APP] sequence id:19
+ 00601 2017-09-30#16:01:45.954 091 10310 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00602 2017-09-30#16:01:45.954 092 10310 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00603 2017-09-30#16:01:45.954 093 10310 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00604 2017-09-30#16:01:45.954 094 10310 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00605 2017-09-30#16:01:45.954 095 10310 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00606 2017-09-30#16:01:46.016 096 10410 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 28 entry 0 ce_cnt 81 clk 0082c4 all 482
+ 00607 2017-09-30#16:01:46.016 098 10410 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=14 data = 0xab gap=9 data[0]0
+ 00608 2017-09-30#16:01:46.016 099 10410 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00609 2017-09-30#16:01:46.016 101 10410 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00610 2017-09-30#16:01:46.016 102 10410 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00611 2017-09-30#16:01:46.016 103 10410 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00612 2017-09-30#16:01:46.016 105 10410 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00613 2017-09-30#16:01:46.016 106 10410 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00614 2017-09-30#16:01:46.016 107 10410 File[026], Line[0000] [MODULE_APP] command_id:5
+
+ 00615 2017-09-30#16:01:46.016 108 10410 File[026], Line[0000] [MODULE_APP] HEALTH_DATA_COMMAND_ID,len:6 - 1:1:0 
+
+ 00616 2017-09-30#16:01:46.016 109 10410 File[026], Line[0000] [MODULE_APP] key 6:len:1 - 1
+ 00617 2017-09-30#16:01:46.016 110 10410 File[026], Line[0000] [MODULE_APP] KEY_SET_STEPS_NOTIFY value:1
+
+ 00618 2017-09-30#16:01:46.016 111 10410 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00619 2017-09-30#16:01:46.016 112 10410 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00620 2017-09-30#16:01:46.016 113 10410 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00621 2017-09-30#16:01:46.094 114 10500 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 16 entry 0 ce_cnt 82 clk 0083e4 all 496
+ 00622 2017-09-30#16:01:46.094 116 10500 File[026], Line[0000] [MODULE_APP] profileHandle_GATTAttribWriteRsp: subCause=0x703
+ 00623 2017-09-30#16:01:46.188 117 10590 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 90 clk 008504 all 515
+ 00624 2017-09-30#16:01:46.188 119 10600 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00625 2017-09-30#16:01:46.188 120 10600 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00626 2017-09-30#16:01:46.188 122 10600 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00627 2017-09-30#16:01:46.188 123 10600 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00628 2017-09-30#16:01:46.188 124 10600 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00629 2017-09-30#16:01:46.188 125 10600 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00630 2017-09-30#16:01:46.188 126 10600 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 9
+ 00631 2017-09-30#16:01:46.376 127 10770 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 30 entry 0 ce_cnt 92 clk 008745 all 530
+ 00632 2017-09-30#16:01:46.376 129 10770 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=17 data = 0xab gap=9 data[0]0
+ 00633 2017-09-30#16:01:46.376 130 10770 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00634 2017-09-30#16:01:46.376 132 10780 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00635 2017-09-30#16:01:46.376 133 10780 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00636 2017-09-30#16:01:46.376 134 10780 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00637 2017-09-30#16:01:46.391 136 10780 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00638 2017-09-30#16:01:46.391 137 10780 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00639 2017-09-30#16:01:46.391 138 10780 File[026], Line[0000] [MODULE_APP] command_id:2
+
+ 00640 2017-09-30#16:01:46.391 139 10780 File[026], Line[0000] [MODULE_APP] wall_clock_start second_diff_value: 17
+ 00641 2017-09-30#16:01:46.391 140 10780 File[026], Line[0000] [MODULE_APP] set time:17-9-30=16:1:43  seconds_diff: 17
+
+ 00642 2017-09-30#16:01:46.391 141 10780 File[026], Line[0000] [MODULE_APP] do New Time Setting For PedoData!
+ 00643 2017-09-30#16:01:46.391 142 10780 File[026], Line[0000] [MODULE_APP] SETTINGS---key 1:len:4 - 70
+
+ 00644 2017-09-30#16:01:46.391 143 10780 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00645 2017-09-30#16:01:46.391 144 10780 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00646 2017-09-30#16:01:46.391 145 10780 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00647 2017-09-30#16:01:46.547 146 10950 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 26 entry 0 ce_cnt 94 clk 008984 all 543
+ 00648 2017-09-30#16:01:46.547 148 10950 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=13 data = 0xab gap=9 data[0]0
+ 00649 2017-09-30#16:01:46.547 149 10950 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00650 2017-09-30#16:01:46.547 151 10950 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00651 2017-09-30#16:01:46.547 152 10950 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:0, version:0
+
+ 00652 2017-09-30#16:01:46.547 153 10950 File[026], Line[0000] [MODULE_APP] receive data package & send response
+
+ 00653 2017-09-30#16:01:46.563 155 10960 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00654 2017-09-30#16:01:46.563 156 10960 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00655 2017-09-30#16:01:46.563 157 10960 File[026], Line[0000] [MODULE_APP] command_id:5
+
+ 00656 2017-09-30#16:01:46.563 158 10960 File[026], Line[0000] [MODULE_APP] HEALTH_DATA_COMMAND_ID,len:5 - 0:70:125 
+
+ 00657 2017-09-30#16:01:46.563 159 10960 File[026], Line[0000] [MODULE_APP] key 1:len:0 - 70
+ 00658 2017-09-30#16:01:46.563 160 10960 File[026], Line[0000] [MODULE_APP] KEY_REQUEST_DATA
+ 00659 2017-09-30#16:01:46.563 161 10960 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 11 line = 259
+ 00660 2017-09-30#16:01:46.563 162 10960 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00661 2017-09-30#16:01:46.563 163 10960 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00662 2017-09-30#16:01:46.563 164 10960 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00663 2017-09-30#16:01:46.563 165 10960 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 11 line = 163
+ 00664 2017-09-30#16:01:46.563 166 10960 File[026], Line[0000] [MODULE_APP] do L1SEND_HISTORY_DATA_SYNC_START line = 235
+ 00665 2017-09-30#16:01:46.563 167 10960 File[026], Line[0000] [MODULE_APP] sequence id:21
+ 00666 2017-09-30#16:01:46.563 169 10960 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00667 2017-09-30#16:01:46.563 170 10960 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00668 2017-09-30#16:01:46.563 171 10960 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 11
+
+ 00669 2017-09-30#16:01:46.563 172 10960 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00670 2017-09-30#16:01:46.579 173 10960 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00671 2017-09-30#16:01:46.735 174 11130 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 96 clk 008bc4 all 554
+ 00672 2017-09-30#16:01:46.735 176 11130 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00673 2017-09-30#16:01:46.735 177 11130 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00674 2017-09-30#16:01:46.735 179 11130 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00675 2017-09-30#16:01:46.735 180 11130 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00676 2017-09-30#16:01:46.735 181 11130 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00677 2017-09-30#16:01:46.735 182 11130 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00678 2017-09-30#16:01:46.735 183 11130 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 11
+ 00679 2017-09-30#16:01:46.735 184 11130 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 13 line = 551
+ 00680 2017-09-30#16:01:46.735 185 11130 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 13 line = 163
+ 00681 2017-09-30#16:01:46.735 186 11130 File[026], Line[0000] [MODULE_APP] do L1SEND_SPORT_DATA line = 168
+ 00682 2017-09-30#16:01:46.735 187 11130 File[026], Line[0000] [MODULE_APP] sync sport history SportsData_write_addr = 5472256,SportsData_read_addr = 5472256
+ 00683 2017-09-30#16:01:46.735 188 11130 File[026], Line[0000] [MODULE_APP] no sport data in eflash
+ 00684 2017-09-30#16:01:46.735 189 11130 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 13
+ 00685 2017-09-30#16:01:46.735 190 11130 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 14 line = 551
+ 00686 2017-09-30#16:01:46.735 191 11130 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 14 line = 163
+ 00687 2017-09-30#16:01:46.735 192 11130 File[026], Line[0000] [MODULE_APP] do L1SEND_SLEEP_DATA line = 174
+ 00688 2017-09-30#16:01:46.735 193 11130 File[026], Line[0000] [MODULE_APP] sync sleep history SleepData_write_addr = 5468160,SleepData_read_addr = 5468160
+ 00689 2017-09-30#16:01:46.735 194 11130 File[026], Line[0000] [MODULE_APP] no sleep data in eflash
+ 00690 2017-09-30#16:01:46.735 195 11130 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 14
+ 00691 2017-09-30#16:01:46.735 196 11130 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 15 line = 551
+ 00692 2017-09-30#16:01:46.735 197 11130 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 15 line = 163
+ 00693 2017-09-30#16:01:46.735 198 11130 File[026], Line[0000] [MODULE_APP] do L1SEND_HEART_DATA line = 180
+ 00694 2017-09-30#16:01:46.751 199 11130 File[026], Line[0000] [MODULE_APP] sync heart history HeartData_write_addr = 5476352,HeartData_read_addr = 5476352
+ 00695 2017-09-30#16:01:46.751 200 11130 File[026], Line[0000] [MODULE_APP] no heart rate data in eflash
+ 00696 2017-09-30#16:01:46.751 201 11130 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 15
+ 00697 2017-09-30#16:01:46.751 202 11130 File[026], Line[0000] [MODULE_APP] send to OS Queue event = 12 line = 551
+ 00698 2017-09-30#16:01:46.751 203 11130 File[026], Line[0000] [MODULE_APP] Receive to OS Queue Event = 12 line = 163
+ 00699 2017-09-30#16:01:46.751 204 11130 File[026], Line[0000] [MODULE_APP] do L1SEND_HISTORY_DATA_SYNC_END line = 255
+ 00700 2017-09-30#16:01:46.751 205 11130 File[026], Line[0000] [MODULE_APP] sequence id:23
+ 00701 2017-09-30#16:01:46.751 207 11140 File[026], Line[0000] [MODULE_APP] --> GATT_Notification: ServiceID=0x2, attribIndex=4
+ 00702 2017-09-30#16:01:46.751 208 11140 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits--
+
+ 00703 2017-09-30#16:01:46.751 209 11140 File[026], Line[0000] [MODULE_APP] <-- GATTAttributeUpdateRsp cause = 0x0 subcause = 0x0 
+ 00704 2017-09-30#16:01:46.751 210 11140 File[026], Line[0000] [MODULE_APP] gProfileData.wDsCredits++
+
+ 00705 2017-09-30#16:01:46.751 211 11140 File[026], Line[0000] [MODULE_APP] profile callback PROFILE_EVT_SEND_DATA_COMPLETE, wCredits = 10
+
+ 00706 2017-09-30#16:01:46.907 212 11320 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 22 entry 0 ce_cnt 98 clk 008e04 all 565
+ 00707 2017-09-30#16:01:46.907 214 11320 File[026], Line[0000] [MODULE_APP] <-- :profileHandle_GATTAttributeWriteIndCommandInfo idx=2, length=8 data = 0xab gap=9 data[0]0
+ 00708 2017-09-30#16:01:46.907 215 11320 File[026], Line[0000] [MODULE_APP] BWPS: GATT_SRV_BWPS_TX_INDEX
+
+ 00709 2017-09-30#16:01:46.907 217 11320 File[026], Line[0000] [MODULE_APP] --> GATTAttributeWriteConf subCause=0x0
+ 00710 2017-09-30#16:01:46.907 218 11320 File[026], Line[0000] [MODULE_APP] ack error flag:0, ack or data flag:1, version:0
+
+ 00711 2017-09-30#16:01:46.907 219 11320 File[026], Line[0000] [MODULE_APP] receive a ack package
+
+ 00712 2017-09-30#16:01:46.907 220 11320 File[026], Line[0000] [MODULE_APP] get the right ack of mobile phone
+
+ 00713 2017-09-30#16:01:46.907 221 11320 File[026], Line[0000] [MODULE_APP] remove from local Queue event = 12
+ 00714 2017-09-30#16:01:46.907 222 11320 File[026], Line[0000] [MODULE_APP] do MSG_UPDATE_CONPARA handle...
+ 00715 2017-09-30#16:01:46.907 223 11320 File[026], Line[0000] [MODULE_APP] current connec param,interval:0x48, latency:0x6, supervision_timeout:0x1f4
+
+ 00716 2017-09-30#16:01:48.360 224 12760 File[204], Line[2986] [MODULE_LOWERSTACK] <= [LL] LL Ctrl PDU received, opc:1 m:0 ent:0 len:8 pause_enc:0 start_enc:0 counter:107 data:01 74 fd ff 7f 1b 7b 00
+ 00717 2017-09-30#16:01:48.360 225 12760 File[000], Line[7906] [MODULE_LOWERSTACK] [LL] wake_from_sla_latency : cause 3, cur_clk 001ed5, ap_ww(001ed4->000000), ap(001ed4->000000), hop(28->0), cnt(0->0) 
+ 00718 2017-09-30#16:01:48.360 226 12760 File[000], Line[7568] [MODULE_LOWERSTACK] [LL] Channel Map Update received. Entry:107. CE_Count:107, Instant:123, Channel Map:0x0074 00fd 00ff 007f 001b
+ 00719 2017-09-30#16:01:48.360 227 12760 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 14 entry 0 ce_cnt 107 clk 00a006 all 565
+ 00720 2017-09-30#16:01:48.986 228 13390 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 18 entry 0 ce_cnt 114 clk 00a7e5 all 572
+ 00721 2017-09-30#16:01:49.267 231 13680 File[026], Line[0000] [MODULE_APP] OLED 5s time out
+ 00722 2017-09-30#16:01:50.424 232 14830 File[201], Line[0851] [MODULE_LOWERSTACK] LE_RX PKT: type 1 src 0 bytes 18 entry 0 ce_cnt 130 clk 00b9e4 all 581
+ 00723 2017-09-30#16:01:55.644 235 20050 File[100], Line[0694] [MODULE_LOWERSTACK] WK:31, le_inst_rpt: 0x1e28, le_cnt:1, le_bm:0001, adv:0(0x04b0), scan:0(int0x0010,win0x0010),dup:0, init:0(int0x0010,win0x0010)
+ 00724 2017-09-30#16:01:55.644 236 20050 File[100], Line[0720] [MODULE_LOWERSTACK] m:0, en0(int:72, counter:188, restart:188, sup_to:500 latency:6 sup_timer:200020a8) en1(int:-2147483576, counter:0, restart:0, sup_to:0 latency:768) dummy : 2a20
+ 00725 2017-09-30#16:01:55.644 237 20050 File[001], Line[0392] [MODULE_LOWERSTACK] sta(7000) anchor(0x00000000)
+ 00726 2017-09-30#16:01:55.644 238 20050 File[001], Line[0392] [MODULE_LOWERSTACK] sta(7000) anchor(0x00000000)
